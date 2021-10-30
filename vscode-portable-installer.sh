@@ -41,22 +41,6 @@ while getopts ":v-:" flag; do
   esac
 done
 
-
-while getopts ":v" FLAG; do
-  case $FLAG in
-    v | V | version)
-	    echo "v$VERSION"
-	    exit 1
-	    ;;
-    *)
-	    echo "usage: ./vscode-portable-installer.sh
-        -v : view installer version
-        -h : view usage menu"
-	    exit 1
-	  ;;
-  esac
-done
-
 if [ -f "$HOME/Desktop/VSCode.desktop" ]; then
   if [ -d "$HOME/$SAVE_DIR/VSCode-linux-x64" ]; then
     # if ! grep -q VSCode "$HOME/.bashrc"; then
