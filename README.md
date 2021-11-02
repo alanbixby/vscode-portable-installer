@@ -7,7 +7,7 @@ A bash script to install VSCode in a Linux environment without sudo rights; writ
 
 ```bash
 wget https://raw.githubusercontent.com/alanbixby/vscode-portable-installer/master/vscode-portable-installer.sh
-chmod +x ./vscode-portable-installer
-./vscode-portable-installer
-rm ./vscode-portable-installer
+chmod +x ./vscode-portable-installer.sh
+./vscode-portable-installer.sh
+rm ./vscode-portable-installer.sh
 ```
