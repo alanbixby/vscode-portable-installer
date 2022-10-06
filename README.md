@@ -15,4 +15,4 @@ rm ./vscode-portable-installer.sh
 ## IMPORTANT NOTE: 
 If you use the [C/C++ Microsoft extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) and have limited system resources, it is **strongly** recommended to reduce your intellisense cahce from 5GB to 512MB or less. On the university machines this script was written for, students are given 8GB partitions, which this cache eats through.
 
-With VSCode open, press `CTRL SHIFT P`, then navigate to `Settings`, search for `Cache Size` and change the `C_Cpp: Intelli Sense Cache Size` from `5120` to a smaller value like `512` or `256`.
+With VSCode open, press `CTRL SHIFT P`, then navigate to `Settings`, search for `Cache Size` and change the `C_Cpp: Intelli Sense Cache Size` from `5120` to a smaller value like `256` or `0` to disable the cache outright.
